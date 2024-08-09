@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 330
+  ClientWidth = 501
+  Padding.Left = 15.000000000000000000
+  Padding.Top = 15.000000000000000000
+  Padding.Right = 15.000000000000000000
+  Padding.Bottom = 15.000000000000000000
+  Position = ScreenCenter
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 1
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Padding.Left = 15.000000000000000000
+    Padding.Top = 15.000000000000000000
+    Padding.Right = 15.000000000000000000
+    Padding.Bottom = 15.000000000000000000
+    Size.Width = 471.000000000000000000
+    Size.Height = 300.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 15.000000000000000000
+    YRadius = 15.000000000000000000
+    object Z: TLayout
+      Align = Top
+      Position.X = 15.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 441.000000000000000000
+      Size.Height = 90.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Image1: TImage
+        MultiResBitmap = <
+          item
+          end>
+        Align = Left
+        Size.Width = 137.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [FontColor]
+        Margins.Left = 15.000000000000000000
+        Size.Width = 289.000000000000000000
+        Size.Height = 90.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Comfortaa'
+        TextSettings.Font.Size = 24.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Universidade Katiavala Bwila'
+        TabOrder = 1
+      end
+    end
+  end
+end
